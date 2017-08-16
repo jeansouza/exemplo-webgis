@@ -1,6 +1,6 @@
 # Exemplo WebGIS
 
-Projeto criado com o intuito de apresentar um exemplo básico de WebGIS. Ele utiliza [Node.js](https://nodejs.org/en/) no back-end, jQuery para manipulação do DOM e OpenLayers como biblioteca para manipulação de mapas.
+Projeto criado com o intuito de apresentar um exemplo básico de WebGIS. Ele utiliza [Node.js](https://nodejs.org/en/) no back-end, [jQuery](https://jquery.com/) para manipulação do DOM e [OpenLayers](https://openlayers.org/) como biblioteca para manipulação de mapas.
 
 ## Pré-requisitos:
 
