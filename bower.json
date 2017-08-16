@@ -1,18 +1,14 @@
 {
   "name": "exemplo-webgis",
-  "description": "",
-  "main": "",
   "authors": [
     "Jean Souza <jeancfsouza@gmail.com>"
   ],
-  "license": "MIT",
-  "homepage": "",
+  "license": "GPL",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
+    "test"
   ],
   "dependencies": {
     "jquery": "^3.2.1",
