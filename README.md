@@ -4,17 +4,17 @@ Projeto criado com o intuito de apresentar um exemplo básico de WebGIS. Ele uti
 
 ## Pré-requisitos:
 
-- Node.js >= 6.11.0
+- [Node.js](https://nodejs.org/en/) >= 6.11.0
 
-- npm >= 3.10.10
+- [npm](https://www.npmjs.com/) >= 3.10.10
 
-- bower >= 1.8.0
+- [bower](https://bower.io/) >= 1.8.0
 
-- PostgreSQL >= 9.5.7
+- [PostgreSQL](https://www.postgresql.org/) >= 9.5.7
 
-- PostGIS >= 2.2.1
+- [PostGIS](http://postgis.net/) >= 2.2.1
 
-- GeoServer >= 2.11.1
+- [GeoServer](http://geoserver.org/) >= 2.11.1
 
 ## Instruções
 
