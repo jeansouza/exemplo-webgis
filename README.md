@@ -1,6 +1,6 @@
 # Exemplo WebGIS
 
-Projeto criado com o intuito de apresentar um exemplo básico de WebGIS. Ele utiliza [Node.js](https://nodejs.org/en/) no back-end, [jQuery](https://jquery.com/) para manipulação do DOM e [OpenLayers](https://openlayers.org/) como biblioteca para manipulação de mapas.
+Projeto criado com o intuito de apresentar um exemplo básico de WebGIS. Ele utiliza [Node.js](https://nodejs.org/en/) no back-end, [jQuery](https://jquery.com/) para manipulação do DOM, [OpenLayers](https://openlayers.org/) como biblioteca para manipulação de mapas, [Bower](https://bower.io/) e [npm](https://www.npmjs.com/) para o gerenciamento de dependências, [PostgreSQL](https://www.postgresql.org/) + [PostGIS](http://postgis.net/) para armazenamento de dados e [GeoServer](http://geoserver.org/) como servidor de mapas.
 
 ## Pré-requisitos:
 
@@ -8,7 +8,7 @@ Projeto criado com o intuito de apresentar um exemplo básico de WebGIS. Ele uti
 
 - [npm](https://www.npmjs.com/) >= 3.10.10
 
-- [bower](https://bower.io/) >= 1.8.0
+- [Bower](https://bower.io/) >= 1.8.0
 
 - [PostgreSQL](https://www.postgresql.org/) >= 9.5.7
 
@@ -36,7 +36,7 @@ $ cd exemplo-webgis
 $ npm install
 ```
 
-4- Faça a instalação das dependências bower:
+4- Faça a instalação das dependências Bower:
 
 ```
 $ bower install
