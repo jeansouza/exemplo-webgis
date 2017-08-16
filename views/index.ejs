@@ -1,11 +1,24 @@
+<!-- @author Jean Souza [jeancfsouza@gmail.com] -->
 <!DOCTYPE html>
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' type='text/css' href='/openlayers/ol.css'/>
+    <link rel='stylesheet' type='text/css' href='/bootstrap/dist/css/bootstrap.min.css'/>
+    <link rel='stylesheet' type='text/css' href='/stylesheets/style.css'/>
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <div id="map">
+      <div id="layers">
+        <div>Camadas</div>
+        <hr/>
+        <ul></ul>
+      </div>
+    </div>
   </body>
+  <script type="text/javascript" src="/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="/openlayers/ol.js"></script>
+  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  <script type="text/javascript" src="/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/javascripts/exemplo-webgis.js"></script>
 </html>
