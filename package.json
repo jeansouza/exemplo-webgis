@@ -15,6 +15,7 @@
     "express-load": "^1.1.16",
     "morgan": "~1.8.1",
     "openlayers": "^4.3.1",
+    "pg": "^7.1.2",
     "serve-favicon": "~2.4.2"
   }
 }

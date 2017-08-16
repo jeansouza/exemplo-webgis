@@ -5,6 +5,7 @@
     <title><%= title %></title>
     <link rel='stylesheet' type='text/css' href='/openlayers/ol.css'/>
     <link rel='stylesheet' type='text/css' href='/bootstrap/dist/css/bootstrap.min.css'/>
+    <link rel='stylesheet' type='text/css' href='/jquery-ui/themes/base/jquery-ui.min.css'/>
     <link rel='stylesheet' type='text/css' href='/stylesheets/style.css'/>
   </head>
   <body>
@@ -14,9 +15,14 @@
         <hr/>
         <ul></ul>
       </div>
+      <div id="get-layer-information" class="ol-unselectable ol-control">
+        <button type="button" title="Informações da Camada">i</button>
+      </div>
     </div>
+    <div id="feature-info-box"></div>
   </body>
   <script type="text/javascript" src="/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="/jquery-ui/jquery-ui.min.js"></script>
   <script type="text/javascript" src="/openlayers/ol.js"></script>
   <script type="text/javascript" src="/socket.io/socket.io.js"></script>
   <script type="text/javascript" src="/bootstrap/dist/js/bootstrap.min.js"></script>
