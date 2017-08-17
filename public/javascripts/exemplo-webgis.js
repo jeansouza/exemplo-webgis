@@ -96,19 +96,29 @@ $(document).ready(function() {
       layer.setVisible(!layer.getVisible());
   });
 
-  $("#get-layer-information").on("click", function() {
-    setGetFeatureInfoUrlOnClick('exemplo-webgis:estados', function(url) {
-      if($('#feature-info-box').hasClass('ui-dialog-content'))
-        $('#feature-info-box').dialog('close');
+  $("#get-layer-information > button").on("click", function() {
+    unsetSingleClickEventKey();
 
-      if(url !== null)
-        socket.emit('getFeatureInfo', {
-          url: url,
-          params: {
-            layerName: "Estados"
-          }
-        });
-    });
+    if($("#map").hasClass("pointer")) {
+      $("#map").removeClass("pointer");
+      $("#map").addClass("move");
+    } else {
+      $("#map").removeClass("move");
+      $("#map").addClass("pointer");
+
+      setGetFeatureInfoUrlOnClick("exemplo-webgis:estados", function(url) {
+        if($('#feature-info-box').hasClass('ui-dialog-content'))
+          $('#feature-info-box').dialog('close');
+
+        if(url !== null)
+          socket.emit('getFeatureInfo', {
+            url: url,
+            params: {
+              layerName: "Estados"
+            }
+          });
+      });
+    }
   });
 
   socket.on('getGeoJsonResponse', function(result) {
